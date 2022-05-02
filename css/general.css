@@ -1,0 +1,427 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Open Sans';
+}
+/*HEADER*/
+#header-principal {
+    padding: 40px;
+    background-image: url("../imgs/fondo.png");
+    position: relative;
+    width: 100%;
+    height: 854px;
+    background-repeat: no-repeat;
+
+}
+
+.logo-blanco{
+    float:left;
+    width:170px;
+    height:170px;
+    margin-right: 40px;
+
+
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    line-height: 175px;
+}
+
+
+
+.nav-social{
+    float: right;
+    margin-right: 25px;
+
+}
+.nav-social p{
+    color: #005CA8;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: -40px;
+
+}
+
+.fab{
+    color: #005CA8;
+    font-size: 35px;
+}
+
+.sct-banner{
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+}
+.sct-banner h2{
+    color: white;
+    font-size: 3em;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.sct-banner h3{
+    color: white;
+    font-size: 0.90em;
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+
+.sct-banner button{
+    border-radius: 30px;
+    width: 30%;
+    background-color: white;
+    color: #005CA8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.sct-banner a{
+    color: white;
+    font-weight: bold;
+    font-size: 0.90em;
+    text-decoration: none;
+    text-align: right;
+    margin-top: -30px;
+    margin-left: 260px;
+}
+
+.sct-banner2{
+    width: 100%;
+    display: inline-flexbox;
+
+}
+.sct-banner2 img{
+    float: right;
+    width: 51%;
+    margin-top: -375px;
+    margin-right: 40px;
+}
+
+/*HEADER*/
+
+/*BODY*/
+
+/*Section somos inicio*/
+.sct-somos{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 90px;
+}
+
+.sct-somos h1{
+    text-align: center;
+    font-size: 3em;
+    color: #005CA8;
+    font-weight: bolder;
+}
+.sct-somos h2{
+    text-align: center;
+    font-size: 3em;
+    color: #EF4933;
+    font-weight: lighter;
+}
+
+.sct-info{
+    width: 100%;
+    margin-top: 130px;
+    background-color: white;
+}
+
+
+
+.sct-info h4 {
+    color: #005CA8;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.sct-info p {
+    font-weight: lighter;
+    font-size: 0.80em;
+    margin-top: 20px;
+    color: grey;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    height: 220px;
+    margin-left: 80px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 7%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fas{
+    color: #005CA8;
+    font-size: 4em;
+}
+
+
+.far {
+    color: #005CA8;
+    font-size: 4em;
+}
+
+.hvr-radial-out:hover > .blanco{
+    color: #fff !important;
+
+}
+
+/*Section Somos end*/
+
+/*Section descubre inicio*/
+.sct-descubre div {
+    float: left;
+    height: 700px;
+    width: 50%;
+    margin-top: 90px;
+}
+.sct-descubre .img {
+    background-image: url('../imgs/imagen-izq.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sct-descubre .info {
+    padding: 50px 50px;
+}
+
+.sct-descubre .info h2 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 85px;
+    color: #005CA8;
+}
+
+.sct-descubre .info p {
+    line-height: 25px;
+    padding-right: 180px;
+}
+
+.sct-descubre button{
+    border-radius: 30px;
+    width: 20%;
+    background-color: #005CA8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Section descubre end */
+
+/*Section admision inicio */
+
+
+
+.sct-admision div {
+    float: left;
+    height: 500px;
+    width: 50%;
+    margin-top: 90px;
+    background-color: #EF4933;
+    padding-left: 200px;
+    margin-bottom: 70px;
+}
+
+.sct-admision h1{
+    font-size: 3em;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.sct-admision p{
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sct-admision input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #EF4933;
+    box-sizing: border-box;
+
+}
+
+.sct-admision ::placeholder{
+    color: #fff;
+}
+
+.sct-admision button{
+    border-radius: 30px;
+    width: 20%;
+    background-color: #fff;
+    color: #EF4933;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sct-admision .img {
+    background-image: url('../imgs/cursor.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Section admision end */
+
+/*Section blog Inicio*/
+
+
+.sct-blog div {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.sct-blog h2{
+    font-size: 4em;
+    color: #005CA8;
+    text-align: center;
+}
+
+
+.sct-blog .bg{
+    background-image: url('../imgs/bg-cuaderno.png');
+    background-position: center;
+    background-repeat: repeat;
+
+}
+
+.sct-blog .column{
+    float: top;
+    width: 50%;
+    padding: 10px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 450px;
+}
+
+.sct-blog .row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sct-blog .float{
+    float: left;
+    margin-left: 40px;
+}
+
+.sct-blog .fecha{
+    color: #EF4933;
+    font-size: 2em;
+}
+
+.sct-blog .dot{
+    width: 80px;
+    height: 80px;
+}
+
+.sct-blog .article{
+    float: top;
+    text-align: left;
+    width: 40%;
+    margin-top: 10px;
+    height: 100px !important;
+
+}
+.article h5{
+    font-size: 1.50em;
+    color: black;
+}
+.article p{
+    font-size: 0.90em;
+    color: black;
+
+}
+
+.sct-blog button{
+    border-radius: 30px;
+    width: 14%;
+    background-color: #005CA8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.foot{
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+    background-color: #fff;
+}
+
+.foot div{
+    float: right;
+}
+
+.foot .logo{
+    width: 90px;
+    height: 90px;
+    margin-top: 4px;
+}
+.foot p{
+    float: left;
+    color: lightgray;
+    margin-top: 12%;
+    margin-right: 10px;
+
+}
