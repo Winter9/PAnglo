@@ -1,0 +1,1 @@
+In the university, as a solo test, we were given a photoshop file of a new design for the site https://anglo.ed.cr/, even to this day, the site remains very similar to what we were asked to make back then.
